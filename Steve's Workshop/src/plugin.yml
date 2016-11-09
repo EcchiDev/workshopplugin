@@ -1,0 +1,21 @@
+name: StevesWorkshop
+version: 0.0.1
+description: This plugin contains many useful commands.
+author: MasterSteve26
+authors: [] 
+website: mastersteve26.tk
+main: com.mastersteve26.workshop.main.Main
+ 
+commands:
+    motd:
+        description: Message Of The Day
+        usage: /<command>
+    setmotd:
+        description: Set Message Of The Day
+        usage: /<command> <message>
+    spawn:
+        description: Teleport to spawn
+        usage: /<command>
+    setspawn:
+        description: Set the spawnpoint
+        usage: /<command>
